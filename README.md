@@ -1,8 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+[Node](https://nodejs.org/en/download/)<br>
+[Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)<br>
+[Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)<br>
+[Github account](https://github.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
+To install all dependencies.
 
 ### `yarn start`
 
