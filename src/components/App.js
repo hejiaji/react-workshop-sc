@@ -4,20 +4,22 @@ import './App.css';
 
 class App extends Component {
   render() {
+  	const title = "Edit src/App.js and save to reload.";
+  	const website = "https://reactjs.org";
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+	          {title}
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href={website}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            visit
           </a>
         </header>
       </div>
